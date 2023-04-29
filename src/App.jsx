@@ -1,11 +1,10 @@
 import React from "react";
+import News from "./components/news";
 
 function App(){
   return(
     <>
-      <div>
-        <h1>Hello world</h1>
-      </div>
+      <News/>
     </>
   )
 }

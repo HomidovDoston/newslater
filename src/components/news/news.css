@@ -23,14 +23,15 @@ html {
 }
 
 body {
+    background: linear-gradient(to bottom, #020809 0%, #020809 475px, #F3F2EA 475px, #F3F2EA 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     height: 100%;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    background-color: var(--backgroundPrimary);
-    /* color: var(--colorPrimary); */
 }
 
 #root{
@@ -81,3 +82,184 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* HEADER STYLES START */
+.site-header__wrapper{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__title{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    color: #F7F7F4;
+}
+.site-header__end{
+    display: flex;
+    align-items: center;
+}
+.header__input {
+    width: 536.53px;
+    height: 40.13px;
+    padding: 10px 0 10px 46px;
+    background: #04594D;
+    border: 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 16.6051px;
+    line-height: 20px;
+    color: rgba(247, 247, 244, 0.35);
+}
+.header__button{
+    margin:0;
+    padding: 0;
+    width: 116.24px;
+    height: 40.13px;
+    background: #8E4042;
+    border: 0;
+    font-style: normal;
+    font-size: 18.3726px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: #F7F7F4;
+}
+.site-nav{
+    margin-top: 48px;
+    height: 50px;
+    padding: 0 25px 0 50px;
+    background: #1A1A1A;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.site-list{
+    display: flex;
+    gap: 30px;
+}
+.site-link{
+    font-style: normal;
+    font-size: 17px;
+    line-height: 100%;
+    align-items: center;
+    color: #FDFDFD;
+}
+.site-link__world{
+    background-color: #04594D;
+    padding: 15px 20px 16px 20px;
+}
+
+.end-list{
+    display: flex;
+    gap: 8px;
+}
+.site-time{
+    font-style: normal;
+    font-size: 17px;
+    line-height: 100%;
+    color: #FDFDFD;
+}
+.site-header__end-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.site-header__left{
+    padding: 25px 25px 0 25px;
+    max-width: 650px;
+    background-color: #fff;
+    
+}
+.left-title__wrapper{
+    display: flex;
+}
+.left-title{
+    margin: 25px 0 10px 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+}
+.left-description{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 10px;
+    line-height: 11px;
+    color: #04594D;
+}
+.left-end__img{
+    margin: 25px 0 0 0;
+}
+
+.right-start__title{
+    margin: 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #D5D5D5;
+}
+.right-start{
+    max-width: 192px;
+}
+.site-header__right-top{
+    display: flex;
+    padding: 0 25px 25px 25px;
+    background-color: #1A1A1A;
+    height: 265px;
+}
+.site-header__right-end{
+    padding: 25px;
+    display: flex;
+    gap: 40px;
+    background-color: #fff;
+}
+
+.right-end__title{
+    width: 344px;
+}
+
+.Airports-title{
+    margin: 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+.arxive{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 10px;
+    line-height: 100%;
+    align-items: flex-end;
+    color: #676767;
+}
+.Airports-description{
+    margin: 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #04594D;
+}
+.header-line{
+    border: 2px solid #F1F0F0;
+}
+
+
+
+/* HEADER STYLES END */
